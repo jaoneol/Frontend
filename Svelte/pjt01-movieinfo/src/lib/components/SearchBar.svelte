@@ -5,7 +5,7 @@
   export let data_temp = [];
 
   $: if(inputText.length > 16){
-      alertText = "입력한도 초과";
+      alertText = "Input limit exceeded!!!!";
   } else{
       alertText = ""
   }
@@ -16,7 +16,7 @@
       );
       console.log(data_temp)
       if (data_temp.length === 0) {
-          alertText = "검색 결과가 없습니다.";
+          alertText = "No Result!";
       } else {
           alertText = "";
       }
