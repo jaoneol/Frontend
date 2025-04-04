@@ -1,6 +1,6 @@
 # Svelte + Vite
 
-## Purpose
+### Purpose
 - Practice to Use Svelte + Vite + JavaScript 
 
 ### create project
